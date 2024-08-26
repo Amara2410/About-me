@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+
+.Bloco{
+max-width: 1080px;
+display: flex;
+align-items: flex-start;
+justify-content: space-around;
+flex-wrap:nowrap;
+margin: 57px;
+}
+
+header {
+    background-color: hotpink;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: nowrap; 
+    max-height: 100px;
+}
+
+    .Menu {
+    width: auto; 
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+      .Sociais{
+        width: 25%;
+      }
+      .Sociais button i{
+
+        font-size: 20px;
+        color: aliceblue;
+      }
+
+
+      .Sociais button{
+            width: 40px;
+            height: 40px;
+            background-image: linear-gradient(50deg,hotpink,lightpink);
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            align-items:center;
+            
+              }
+
+              .Aboutme {
+                display: flex; 
+                justify-content:left; 
+                margin-left:-550px; 
+            }
+            
+    .Aboutme nav a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 50px;
+    text-align:left;
+}
+
+.Menu nav a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 15px;
+   
+}
+
+
+section {
+    padding: 40px 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+
+}
+
+body {
+    font-family: Montserrat, Open-sans, sans-serif;
+    background-color: lightpink;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color:hotpink;
+    border-radius: 30px;
+    align-items: center;
+    
+}
+
+footer {
+    background-color: lightpink;
+    color: white;
+    padding: 20px 0;
+    font-size: 0.9em;
+    text-align:center;
+}
+
+p {
+    color:hotpink;
+    text-align:justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2 {
+    color: hotpink;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+h3{
+    color: hotpink;
+    font: size 2px;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color:lightpink;
+    color: lightpink;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: hotpink;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    border-radius:60px;
+}
